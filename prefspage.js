@@ -1,4 +1,4 @@
-if (mw.config.values.wgPageName === "Preferences") {
+if (mw.config.values.wgPageName === "Genshin_Impact_Wiki:Preferences") {
   mw.loader.using("oojs-ui-core").done(function () {
     $(function () {
       async function changePrefs(skin) {
