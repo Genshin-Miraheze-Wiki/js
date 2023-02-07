@@ -1,3 +1,5 @@
+import "./prefspage";
+
 window.addEventListener("load", function () {
   if (
     mw.config.values.wgNamespaceNumber === 2 &&
