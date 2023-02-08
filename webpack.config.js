@@ -4,7 +4,7 @@ const path = require("path");
 module.exports = {
   entry: "./app.js",
   mode: "production",
-  target: ["web", "es5"],
+  //target: ["web", "es5"],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "output.bundle.js",
