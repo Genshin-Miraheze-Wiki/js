@@ -1,3 +1,8 @@
+window.addEventListener("load", function () {
+  $("#pt-preferences > a")[0].href =
+    "https://genshinimpact.miraheze.org/wiki/Genshin_Impact_Wiki:Preferences";
+});
+
 if (mw.config.values.wgPageName === "Genshin_Impact_Wiki:Preferences") {
   /*history.replaceState(
     null,
