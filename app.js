@@ -1,4 +1,5 @@
 import "./prefspage";
+//import "./socialprofile";
 
 window.addEventListener("load", function () {
   if (

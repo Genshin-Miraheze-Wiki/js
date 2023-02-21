@@ -1,5 +1,6 @@
-const BannerPlugin = require("./plugins/BannerPlugin");
 const path = require("path");
+
+const BannerPlugin = require("./plugins/BannerPlugin");
 
 module.exports = {
   entry: "./app.js",
@@ -13,8 +14,7 @@ module.exports = {
   plugins: [
     new BannerPlugin({
       banner:
-        "/*Source code is available under the MPL-2.0 license and others at https://github.com/Genshin-Miraheze-Wiki/js. Compiled text is available under the Creative Commons license CC-BY-SA 4.0.*/",
-      raw: false,
+        "/*All original source code is available under the MPL-2.0 license and others at https://github.com/Genshin-Miraheze-Wiki/js. Compiled text is available under the Creative Commons license CC-BY-SA 4.0 unless noted otherwise.*/",
     }),
   ],
 };
