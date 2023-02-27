@@ -1,5 +1,6 @@
 import "./prefspage";
-//import "./socialprofile";
+import "./socialprofile";
+import "./fixvisualeditor";
 
 window.addEventListener("load", function () {
   if (
